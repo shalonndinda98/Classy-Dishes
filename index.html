@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Classy Dishes — coastal Kenyan dining with a global table, made fresh in Mombasa." />
+  <title>Classy Dishes | Coastal Kenyan Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement-bar">
+    <p><span class="announcement-dot"></span> Mombasa’s freshest table · <strong>Free delivery within Nyali</strong> on orders over KSh 2,500</p>
+    <a href="#contact">Find us by the sea <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Classy Dishes home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="brand-copy"><strong>Classy</strong><em>Dishes</em></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#menu">Our menu</a>
+      <a href="#story">Our story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reservations">Reservations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-trigger" type="button" aria-label="Open shopping cart">
+      <span class="cart-icon" aria-hidden="true">⌂</span>
+      <span>Cart</span>
+      <b class="cart-count">0</b>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A taste of the coast</div>
+        <h1 id="hero-title">Coastal comfort.<br /><em>Kenyan soul.</em></h1>
+        <p class="hero-intro">Thoughtful plates, sun-warmed spices and the kind of welcome that lingers long after the last bite.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu">Explore menu <span aria-hidden="true">↗</span></a>
+          <a class="button button-light" href="#menu" data-order-link>Order now <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div class="avatar-stack" aria-hidden="true"><span>AM</span><span>JO</span><span>NY</span></div>
+          <p><strong>Loved by 2,000+ foodies</strong><br /><span>at the edge of the Indian Ocean</span></p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1800&q=85" alt="Colourful coastal meal on a restaurant table" />
+          <div class="hero-image-note"><span class="note-icon">✦</span><span>Fresh from<br />our kitchen</span></div>
+        </div>
+        <div class="hero-stamp"><span>Est.</span><strong>2018</strong><small>Nyali · Kenya</small></div>
+      </div>
+    </section>
+
+    <section class="feature-strip" aria-label="Restaurant highlights">
+      <div><span class="strip-icon">✦</span><strong>Made with intention</strong><small>Local produce · Global flavour</small></div>
+      <div><span class="strip-icon">⌁</span><strong>Eat by the ocean</strong><small>Nyali’s most relaxed table</small></div>
+      <div><span class="strip-icon">◌</span><strong>Open every day</strong><small>11:00 am — 10:30 pm</small></div>
+    </section>
+
+    <section class="section-shell feature-section" id="featured" aria-labelledby="featured-title">
+      <div class="section-heading split-heading">
+        <div><span class="eyebrow"><span class="eyebrow-line"></span> Worth a first bite</span><h2 id="featured-title">The table favourites</h2></div>
+        <p>Three reasons regulars keep coming back — generous plates, bright flavours, and a little bit of magic in the details.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-card-tall">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=82" alt="Grilled meat skewers with herbs" />
+          <div class="feature-card-overlay"><span class="card-kicker">01 · Signature</span><h3>Ember-kissed<br />nyama choma</h3><p>Charcoal, lime, kachumbari.</p><span class="card-arrow">↗</span></div>
+        </article>
+        <article class="feature-card feature-card-pale">
+          <div class="feature-card-content"><span class="card-kicker">02 · Weekend special</span><h3>Sunset<br /><em>sharing table</em></h3><p>Every Friday & Saturday · from 5pm</p><a href="#reservations" class="text-link">Book your table <span>↗</span></a></div>
+          <div class="sunset-illustration" aria-hidden="true"><span class="sun"></span><span class="horizon"></span><span class="palm palm-one"></span><span class="palm palm-two"></span></div>
+        </article>
+        <article class="feature-card feature-card-image">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1000&q=82" alt="Fresh greens and colourful vegetables" />
+          <div class="feature-card-overlay"><span class="card-kicker">03 · Made daily</span><h3>Garden on<br />a plate</h3><p>Seasonal, bright, always fresh.</p><span class="card-arrow">↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section section-shell" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading menu-heading">
+        <div><span class="eyebrow"><span class="eyebrow-line"></span> From our kitchen</span><h2 id="menu-title">A little bit<br /><em>of everywhere.</em></h2></div>
+        <p>From a steaming bowl of pilau to a perfectly blistered pizza, this is food with a passport and a Kenyan heart.</p>
+      </div>
+      <div class="category-tabs" role="tablist" aria-label="Menu categories">
+        <button class="category-tab is-active" type="button" data-filter="all" role="tab" aria-selected="true">All dishes</button>
+        <button class="category-tab" type="button" data-filter="kenyan" role="tab" aria-selected="false">Kenyan</button>
+        <button class="category-tab" type="button" data-filter="international" role="tab" aria-selected="false">International</button>
+        <button class="category-tab" type="button" data-filter="starters" role="tab" aria-selected="false">Starters</button>
+        <button class="category-tab" type="button" data-filter="desserts" role="tab" aria-selected="false">Desserts</button>
+        <button class="category-tab" type="button" data-filter="drinks" role="tab" aria-selected="false">Drinks</button>
+      </div>
+      <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="story-section section-shell" id="story" aria-labelledby="story-title">
+      <div class="story-image"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=85" alt="Turquoise Indian Ocean meeting a sandy beach" /><span class="image-caption">Somewhere between<br />the salt & the sun.</span></div>
+      <div class="story-copy"><span class="eyebrow"><span class="eyebrow-line"></span> The Classy story</span><h2 id="story-title">Born in the<br /><em>salt air.</em></h2><p>Classy Dishes started with a simple idea: that the best meals bring people closer. In 2018, our first little table opened a few steps from the Nyali shoreline, serving family recipes alongside flavours we picked up on travels.</p><p>Today, we are still a place for long lunches, barefoot sunsets, and plates that feel like a warm hello. Our kitchen is proudly Kenyan, endlessly curious, and always made for sharing.</p><a class="text-link" href="#contact">Come say hello <span>↗</span></a></div>
+    </section>
+
+    <section class="gallery-section section-shell" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading split-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span> A seat by the sea</span><h2 id="gallery-title">Come for the<br /><em>view. Stay for the feeling.</em></h2></div><p>Sunset tables, sea-salt air, and a dining room that never takes itself too seriously.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-large"><img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1200&q=85" alt="Tropical beach and ocean near the restaurant" /><figcaption>Golden hour, every day.</figcaption></figure>
+        <figure class="gallery-item gallery-square"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=82" alt="Fresh pasta with herbs" /><figcaption>Made to share.</figcaption></figure>
+        <figure class="gallery-item gallery-tall"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=82" alt="Cold drink with citrus on a sunny table" /><figcaption>Something cold, something bright.</figcaption></figure>
+        <figure class="gallery-item gallery-wide"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=82" alt="Friends sharing a meal together" /><figcaption>Good food. Better company.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="reservation-section section-shell" id="reservations" aria-labelledby="reservation-title">
+      <div class="reservation-card">
+        <div class="reservation-copy"><span class="eyebrow"><span class="eyebrow-line"></span> Pull up a chair</span><h2 id="reservation-title">Your table<br /><em>is waiting.</em></h2><p>Make a reservation and we’ll have the good table ready — the one with the sea breeze.</p><div class="reservation-note"><span>✦</span><p>For groups of 10 or more, call us directly at <a href="tel:+254711245678">+254 711 245 678</a>.</p></div></div>
+        <form class="reservation-form" id="reservationForm">
+          <div class="form-row"><label><span>Your name</span><input name="name" type="text" placeholder="e.g. Amina Otieno" required /></label><label><span>Phone number</span><input name="phone" type="tel" placeholder="+254 7XX XXX XXX" required /></label></div>
+          <div class="form-row"><label><span>Date</span><input name="date" type="date" required /></label><label><span>Time</span><select name="time" required><option value="">Choose time</option><option>12:00 pm</option><option>1:00 pm</option><option>5:30 pm</option><option>7:00 pm</option><option>8:30 pm</option></select></label></div>
+          <div class="form-row"><label><span>Guests</span><select name="guests" required><option value="">How many?</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6+ guests</option></select></label><label><span>Special requests <small>(optional)</small></span><input name="requests" type="text" placeholder="Birthday, high chair…" /></label></div>
+          <button class="button button-dark button-full" type="submit">Request a table <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="reservationStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+      <div class="contact-heading"><span class="eyebrow"><span class="eyebrow-line"></span> Find your way to us</span><h2 id="contact-title">See you<br /><em>by the sea.</em></h2></div>
+      <div class="contact-grid">
+        <div class="contact-details"><div class="contact-block"><span class="contact-label">Come by</span><p>Plot 14, Links Road<br />Nyali, Mombasa, Kenya</p><a href="https://maps.google.com/?q=Nyali+Mombasa+Kenya" target="_blank" rel="noreferrer" class="text-link">Open in maps <span>↗</span></a></div><div class="contact-block"><span class="contact-label">Opening hours</span><p>Mon — Sun<br /><strong>11:00 am — 10:30 pm</strong></p></div><div class="contact-block"><span class="contact-label">Call or WhatsApp</span><p><a href="tel:+254711245678">+254 711 245 678</a><br /><a href="https://wa.me/254711245678" target="_blank" rel="noreferrer">Chat on WhatsApp ↗</a></p></div><div class="social-links"><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook ↗</a><a href="https://tiktok.com" target="_blank" rel="noreferrer">TikTok ↗</a></div></div>
+        <div class="map-card"><div class="map-water"></div><div class="map-land map-land-one"></div><div class="map-land map-land-two"></div><div class="map-road road-one"></div><div class="map-road road-two"></div><div class="map-label label-nyali">NYALI</div><div class="map-label label-ocean">INDIAN OCEAN</div><div class="map-pin"><span>✦</span></div><div class="map-location">Classy Dishes<br /><small>Plot 14, Links Road</small></div><a class="map-button" href="https://maps.google.com/?q=Nyali+Mombasa+Kenya" target="_blank" rel="noreferrer">Open map <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span class="brand-copy"><strong>Classy</strong><em>Dishes</em></span></a><p>Good food finds you here.</p><small>© 2024 Classy Dishes · Made with sunshine in Mombasa</small></footer>
+
+  <div class="cart-backdrop" hidden></div>
+  <aside class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header"><div><span class="eyebrow"><span class="eyebrow-line"></span> Your order</span><h2>Cart <span class="cart-heading-count">(0)</span></h2></div><button class="drawer-close" type="button" aria-label="Close cart">×</button></div>
+    <div class="cart-body"><div class="cart-items" id="cartItems"></div><div class="empty-cart" id="emptyCart"><span class="empty-cart-icon">✦</span><p>Your cart is taking a little beach break.</p><button class="text-link" type="button" data-order-link>Add something delicious <span>↗</span></button></div></div>
+    <div class="cart-footer"><div class="cart-total"><span>Total</span><strong id="cartTotal">KSh 0</strong></div><form class="order-form" id="orderForm"><label><span>Name</span><input name="name" type="text" placeholder="Your name" required /></label><label><span>Phone</span><input name="phone" type="tel" placeholder="+254 7XX XXX XXX" required /></label><label><span>Delivery address</span><textarea name="address" rows="2" placeholder="Where should we bring it?" required></textarea></label><div class="order-actions"><button class="button button-dark button-full" type="submit">Send order on WhatsApp <span aria-hidden="true">↗</span></button><button class="checkout-link" type="button" id="checkoutButton">Checkout <span>→</span></button></div><p class="form-status" id="orderStatus" role="status"></p></form></div>
+  </aside>
+
+  <div class="toast" role="status" aria-live="polite"><span>✦</span><p></p></div>
+  <script src="script.js"></script>
+</body>
+</html>
